@@ -16,6 +16,16 @@ def login():
 
     return render_template('login.html')
 
+# 學習將後臺資料反映在前台
+@app.route('/demo')
+def demo():
+    data = [
+        'section1',
+        'section2',
+        'section3'
+    ]
+    return render_template('demo.html', data = data)
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
