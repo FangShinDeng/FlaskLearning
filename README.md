@@ -22,3 +22,17 @@
     在主程式裡面 import 其他程式
     然後用 程式名.函式名(app) 來啟用該程式
     請查看範例app.py及userdata.py
+
+## Restful API Users 設計練習
+    
+    參考學習: https://ithelp.ithome.com.tw/articles/10202521
+
+    建立一個使用者CRUD的API
+    1. 建立Api及Resource, 並用api.add_resource去新增資源
+    2. 建立parser = reqparse.RequestParser(), 新增及處理參數
+    
+
+## 補充內容
+1. 0.0.0.0 代表所有主機位置(https://ithelp.ithome.com.tw/articles/10224594)
+2. jsonify 是為了返回是為json格式，若用一般{},則會顯示str
+3. 了解*arg -> list, **kwarg -> dict, 及add_argument
