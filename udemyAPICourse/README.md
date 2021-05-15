@@ -38,4 +38,10 @@ pip install flask-restful
 
 ## SQLAlchemy 
 1. 安裝 pip install flask_sqlalchemy
+2. 安裝 pip install flask_migrate
 
+## 處理pylint-SQLAlchemy error
+參考文獻: https://stackoverflow.com/questions/53975234/instance-of-sqlalchemy-has-no-column-member-no-member
+安裝兩項pylint與flask的擴展, 並在vscode裡面加入相關設定
+pip install pylint-flask-sqlalchemy
+pip install pylint-flask

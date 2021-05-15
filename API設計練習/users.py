@@ -5,7 +5,7 @@ app = Flask(__name__)
 api = Api(app)
 
 users = [
-    {'name': 'mark'},
+    {'name': 'mark', 'email': 'test@gmail.com'},
     {'name': 'Tim'},
     {'name': 'Merry'}
 ]

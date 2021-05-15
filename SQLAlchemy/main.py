@@ -43,3 +43,18 @@ db.create_all()
 
 # 查詢資料庫
 query = db.Query.all
+
+# 新增用戶
+# admin = User(username = 'admin', email = "admin@example.com")
+# db.session.add(admin)
+# db.session.commit()
+
+# 新增用戶2
+# test = User(username = 'test', email = "test@example.com")
+# db.session.add(test)
+# db.session.commit()
+
+# 查詢資料庫
+# test = User.query.all()
+# print(test)
+
